@@ -11,7 +11,7 @@ public class ConnectionFactory {
 
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            return DriverManager.getConnection("jdbc:mysql://127.0.0.1/clinica", "root", "root");
+            return DriverManager.getConnection("jdbc:mysql://127.0.0.1/clinica", "root", "henrique");
 
         } catch (SQLException e) {
             JOptionPane.showMessageDialog(null, " Erro ao conectar ao banco de dados! " + e);
